@@ -2,7 +2,7 @@ package labmodel.model.v0.event;
 
 import java.util.List;
 
-import grabizmo.Event;
+import byransha.Event;
 import labmodel.model.v0.Lab;
 import labmodel.model.v0.Person;
 
@@ -11,7 +11,6 @@ public class NewStaffMember extends Event<Lab> {
 		super(target);
 		// TODO Auto-generated constructor stub
 	}
-
 
 	public Person p;
 
@@ -24,7 +23,6 @@ public class NewStaffMember extends Event<Lab> {
 	public void undo(Lab lab) {
 		lab.members.remove(p);
 	}
-
 
 	@Override
 	public void initFromCSV(List<String> l, Lab s) {

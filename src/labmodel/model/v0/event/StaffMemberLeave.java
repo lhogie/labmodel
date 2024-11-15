@@ -2,7 +2,7 @@ package labmodel.model.v0.event;
 
 import java.util.List;
 
-import grabizmo.Event;
+import byransha.Event;
 import labmodel.model.v0.Lab;
 import labmodel.model.v0.Person;
 import toools.exceptions.NotYetImplementedException;

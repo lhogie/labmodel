@@ -6,7 +6,6 @@ import byransha.GOBMNode;
 import byransha.ListNode;
 import byransha.StringNode;
 
-
 public class Person extends GOBMNode {
 	public StringNode name = new StringNode();
 	private ListNode<Position> positions = new ListNode<>();
